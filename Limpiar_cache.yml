@@ -1,7 +1,6 @@
 
 ---
 - name: limpiar cache ram
-  hosts: ubuntu
   become: true
   tasks:
     - name: limpiar cache  RAM
