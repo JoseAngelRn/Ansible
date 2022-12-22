@@ -1,4 +1,7 @@
 ---
+#INSTALACIÓN MODULO GALAXY POSTGRESQL
+  - include: galaxy_postgreSQL.yml
+
 #INSTALACIÓN DE POSTGRESQL
 
 - include: instalar_postgreSQL.yml
