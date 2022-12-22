@@ -1,6 +1,7 @@
 
 ---
 - name: limpiar cache ram
+  hosts: 10.243.64.4
   become: true
   tasks:
     - name: limpiar cache  RAM
