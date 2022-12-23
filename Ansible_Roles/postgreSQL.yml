@@ -1,6 +1,0 @@
----
-- name: PostgreSQL
-  hosts: all
-  become: true
-  roles:
-    - PostgreSQL_Ubuntu
